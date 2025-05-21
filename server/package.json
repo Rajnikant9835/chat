@@ -10,9 +10,11 @@
   "author": "",
   "license": "ISC",
   "description": "",
+  "engines": {
+    "node": "18.x"
+  },
   "dependencies": {
     "bcryptjs": "^3.0.2",
-    "chathub": "file:..",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
@@ -21,14 +23,5 @@
     "mongoose": "^8.10.1",
     "nodemon": "^3.1.9",
     "socket.io": "^4.7.2"
-  },
-  "_comments": {
-    "bcryptjs": "For password hashing(encryption)",
-    "cookie-parser": "To handle cookies in requests.",
-    "cors": "To allow API access from other websites.",
-    "dotenv": "To use environment variable from dotenv file.",
-    "express": "Helps create server and handle routes easily.",
-    "jsonwebtoken": "For user authentication using JWT",
-    "mongoose": "To connect and interact with mongoDB."
   }
 }
